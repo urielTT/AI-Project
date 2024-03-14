@@ -60,9 +60,7 @@ A four-layer convolutional neural network with LeakyReLU activation function as 
 
 #### DCGAN model
 
-![alt text](image3236.jpg) 
-![alt text](image3166.jpg)
-![alt text](image18.jpg)
+![alt text](image.jpg)
 
 
 
