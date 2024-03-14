@@ -1,46 +1,69 @@
-Converting Real Photographs to Chinese Landscape Painting Style with CycleGAN and DCGAN 
+## Converting Real Photographs to Chinese Landscape Painting Style with CycleGAN and DCGAN 
 
-Code reference
+lINK TO Github: https://github.com/urielTT/AI-Project 
+
+### Code reference
+
 Referred to other authors' base code frameworks as a starting point, and modified and optimized them accordingly to the specific needs and goals of my project.
 
 
-CycleGAN
+### CycleGAN
+
 Existing code frameworks were referenced and based on which necessary modifications and adjustments were made to suit specific research needs and objectives.
 
-reference source:  Monet-CycleGAN/cyclegan.ipynb at master · NitishaS-812k/Monet-CycleGAN (github.com) 
+* reference source:  Monet-CycleGAN/cyclegan.ipynb at master · NitishaS-812k/Monet-CycleGAN (github.com) 
 
 
-DCGAN
+### DCGAN
 Existing code frameworks were referenced and based on which necessary modifications and adjustments were made to suit specific research needs and objectives.
 
-reference source: Monet-paintings-DCGAN-Deeplearning/monet-painting-gan-4.ipynb at main · shriyutha/Monet-paintings-DCGAN-Deeplearning (github.com)
+* reference source: Monet-paintings-DCGAN-Deeplearning/monet-painting-gan-4.ipynb at main · shriyutha/Monet-paintings-DCGAN-Deeplearning (github.com)
 
 
-LLM disclaimer
+### LLM disclaimer
+
 1.	When some of the code was running incorrectly, I tried to get help from ChatGPT.
+
 2.	I used ChatGPT to help me understand some complex code.
+
 3.	I asked ChatGPT to give me some advice on the use of specific vocabulary.
 
 
-Dataset
-chinese landscape painting
+### Dataset
+#### chinese landscape painting
+
 A folder containing thousands of Chinese paintings
 
-Photo
+#### Photo
+
 A folder containing thousands of photos of real landscapes.
 
-CycleGAN.ipynb
+#### CycleGAN.ipynb
+
 A network containing two generators and two discriminators enables it to learn to convert bidirectional between landscape photos and landscape paintings.
 
 
-DCGAN.ipynb
+#### DCGAN.ipynb
+
 A four-layer convolutional neural network with LeakyReLU activation function as a discriminator, and an inverse convolutional layer using ReLU activation and batch normalization as a generator.
 
 
-Generate image
+### Generate image
 
-CycleGAN model
-    
+#### CycleGAN model
+
+![alt text](prediction_0_original.jpg)
+![alt text](prediction_0.jpg)
+![alt text](prediction_11_original.jpg)
+![alt text](prediction_11.jpg)
+
+
+#### DCGAN model
+
+![alt text](image3236.jpg) 
+![alt text](image3166.jpg)
+![alt text](image18.jpg)
+
 
 
         
